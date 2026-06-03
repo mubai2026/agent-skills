@@ -1,0 +1,7 @@
+# Codex 配置 — agent-skills 引用
+# 在 ~/.codex/config.toml 中配置
+
+[skills]
+paths = ["/path/to/agent-skills/skills"]
+
+# session-persist 技能会确保 Codex 也能保持跨会话上下文

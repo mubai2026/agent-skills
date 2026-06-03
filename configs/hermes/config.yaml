@@ -1,0 +1,13 @@
+# Hermes Agent 配置 — agent-skills 技能加载
+# 将此配置合并到 ~/.hermes/config.yaml
+
+skills:
+  paths:
+    - /path/to/agent-skills/skills
+
+# 默认加载的核心技能
+default_skills:
+  - session-persist
+  - context-sync
+  - strategic-compact
+  - continuous-learning
